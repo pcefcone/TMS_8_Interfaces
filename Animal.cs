@@ -12,12 +12,16 @@ namespace TMS_8_Interfaces
 
         public abstract void Eat();
 
-        public void SetDogName(string name)
+        public void SetAnimalName(string name)
         {
             this.Name = name;
         }
 
-        public string GetDogName()
+        public void SetAnimalVoice()
+        {
+        }
+
+        public string GetAnimalName()
         {
             return this.Name;
         }

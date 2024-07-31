@@ -8,5 +8,6 @@ namespace TMS_8_Interfaces
 {
     internal class Animal
     {
+
     }
 }

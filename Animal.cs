@@ -17,7 +17,11 @@ namespace TMS_8_Interfaces
             this.Name = name;
         }
 
-        public string 
+        public string GetDogName()
+        {
+            return this.Name;
+        }
+
     }
 }
 

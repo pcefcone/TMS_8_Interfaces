@@ -6,10 +6,16 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("Put dog name");
-        string name = Console.ReadLine();
+        string DogName = Console.ReadLine();
+        Console.WriteLine("Put cat name");
+        string CatName = Console.ReadLine();
         Animal Dog = new Dog();
-        Dog.SetAnimalName(name);
+        Dog.SetAnimalName(DogName);
+        Dog.G
+        Animal Cat = new Cat();
+        Cat.SetAnimalName(CatName);
         Dog.Eat();
+        Cat.Eat();
     }
 
 

@@ -6,20 +6,16 @@ using System.Threading.Tasks;
 
 namespace TMS_8_Interfaces
 {
-    internal class Dog : Animal, IAnimalVoices
+    internal class Cat : Animal, IAnimalVoices
     {
         public override void Eat()
         {
-            Console.WriteLine($"Dog {Name} eat");
+            Console.WriteLine($"Cat {Name} eat");
         }
-        string Voice = "woof";
+        string Voice = "meow";
         public void GetVoice(string name)
         {
             Console.WriteLine($"Dog {name} say {Voice}");
         }
-
-
-
-     
     }
 }

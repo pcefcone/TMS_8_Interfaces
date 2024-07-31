@@ -16,11 +16,6 @@ namespace TMS_8_Interfaces
         {
             this.Name = name;
         }
-
-        public void SetAnimalVoice()
-        {
-        }
-
         public string GetAnimalName()
         {
             return this.Name;

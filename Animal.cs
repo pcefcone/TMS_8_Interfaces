@@ -6,8 +6,18 @@ using System.Threading.Tasks;
 
 namespace TMS_8_Interfaces
 {
-    internal class Animal
+    public abstract class Animal
     {
+        public string Name { get; set; }
 
+        public abstract void Eat();
+
+        public void SetDogName(string name)
+        {
+            this.Name = name;
+        }
+
+        public string 
     }
 }
+

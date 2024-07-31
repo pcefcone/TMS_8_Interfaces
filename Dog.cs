@@ -12,14 +12,9 @@ namespace TMS_8_Interfaces
         {
             Console.WriteLine($"Dog {Name} eat");
         }
-        string Voice = "woof";
-        public void GetVoice(string name)
+        public void GetVoice(string name, string voice)
         {
-            Console.WriteLine($"Dog {name} say {Voice}");
+            Console.WriteLine($"Dog {name} say {voice}");
         }
-
-
-
-     
     }
 }

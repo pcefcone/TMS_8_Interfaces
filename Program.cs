@@ -9,13 +9,14 @@ internal class Program
         string DogName = Console.ReadLine();
         Console.WriteLine("Put cat name");
         string CatName = Console.ReadLine();
-        Animal Dog = new Dog();
-        Dog.SetAnimalName(DogName);
-        Dog.G
-        Animal Cat = new Cat();
-        Cat.SetAnimalName(CatName);
-        Dog.Eat();
-        Cat.Eat();
+
+        string DogVoice = "Woof";
+        string CatVoice = "Meow";
+
+        Dog instance = new Dog();
+        instance.GetVoice(DogName, DogVoice);
+        Cat instance1 = new Cat();
+        instance1.GetVoice(CatName, CatVoice);
     }
 
 

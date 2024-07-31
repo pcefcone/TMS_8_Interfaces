@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TMS_8_Interfaces
 {
-    public abstract class Animal 
+    public abstract class Animal
     {
         public string Name { get; set; }
 
@@ -20,8 +21,6 @@ namespace TMS_8_Interfaces
         {
             return this.Name;
         }
-
-       
     }
 }
 

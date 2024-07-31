@@ -8,6 +8,6 @@ namespace TMS_8_Interfaces
 {
     interface IAnimalVoices
     {
-        void GetVoice(string name);
+        void GetVoice(string name, string voice);
     }
 }

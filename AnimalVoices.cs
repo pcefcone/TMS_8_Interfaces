@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace TMS_8_Interfaces
 {
-    internal interface AnimalVoices
+    interface IAnimalsVoices
     {
-        public static void AnimalVoice()
-        {
+        string AnimalVoice();
+    }
 
-        }
+    interface IAnimalsSays
+    {
+        void AnimalVoice1(IAnimalsSays animalVoice);
     }
 }

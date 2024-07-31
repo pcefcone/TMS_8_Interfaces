@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace TMS_8_Interfaces
 {
-    internal class Dog : Animal
+    internal class Dog : Animal, IAnimalsSays
     {
         public override void Eat()
         {
             Console.WriteLine($"Dog {Name} eat");
         }
+
+
+
+        
     }
 }

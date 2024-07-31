@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TMS_8_Interfaces
 {
-    public abstract class Animal
+    public abstract class Animal 
     {
         public string Name { get; set; }
 
@@ -26,6 +26,7 @@ namespace TMS_8_Interfaces
             return this.Name;
         }
 
+       
     }
 }
 
